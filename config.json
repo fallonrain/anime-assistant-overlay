@@ -1,0 +1,32 @@
+{
+    "scale": 0.11,
+    "click_through": false,
+    "always_on_top": true,
+    "position": "bottom_right",
+    "margin": [
+        20,
+        20
+    ],
+    "fps_ms": 110,
+    "frames": {
+        "idle": [
+            "assets/Open Eyes Closed Mouth.png"
+        ],
+        "talk": [
+            "assets/Open Eyes Open Mouth.png",
+            "assets/Open Eyes Closed Mouth.png"
+        ],
+        "blink_idle": [
+            "assets/Closed Eyes Closed Mouth.png"
+        ],
+        "blink_talk": [
+            "assets/Closed Eyes Open Mouth.png"
+        ]
+    },
+    "blink": {
+        "enabled": true,
+        "min_ms": 2500,
+        "max_ms": 6000,
+        "duration_ms": 120
+    }
+}
